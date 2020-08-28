@@ -1,0 +1,36 @@
+header {
+    position: fixed;
+    background-color: #107e41;
+    color: azure;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+header img {
+    height: 7.4rem;
+    width: auto;
+    display: inline-block;
+    border-radius: 100%;
+    position: fixed;
+    top: 0.5rem;
+    left: 5rem;
+}
+.info {
+    position: relative;
+    top: 7.7rem;
+}
+#education {
+    background-color: rgb(233, 233, 233);
+    margin: 0;
+}
+#education ul {
+    list-style: none;
+}
