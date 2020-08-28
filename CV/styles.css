@@ -1,36 +1,120 @@
+body {
+    margin: 0;
+    color: #112d4e;
+    background-color: #112d4e;
+    background-image: url(resources/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
 header {
     position: fixed;
-    background-color: #107e41;
-    color: azure;
+    background-color: #3f72af;
+    background-image: url(resources/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f9f7f7;
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 header h1 {
     text-align: center;
+    display: inline-box;
+    margin: 20px auto 0px auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid #f9f7f7;
+    width: 13em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header p {
+header nav {
     text-align: center;
+    position: relative;
+    right: 20px;
+}
+header nav ul li {
+    display: inline;
+    text-align: center;
+    padding: 5px 20px;
+    border-left: 1px solid #f9f7f7; 
+    border-right: 1px solid #f9f7f7; 
+}
+header nav ul li.left {
+    border-left: none;
 }
 
+header nav ul li.right {
+    border-right: none;
+}
+
+header nav ul li a {
+    color: #f9f7f7;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 header img {
     height: 7.4rem;
     width: auto;
     display: inline-block;
     border-radius: 100%;
-    position: fixed;
+    border: 2px solid #f9f7f7;
+    position: absolute;
     top: 0.5rem;
-    left: 5rem;
+    left: 2.5rem;
 }
 .info {
     position: relative;
     top: 7.7rem;
+    left: 9%;
+    width: 80%;
+    line-height: 1.25;
+    background-color: #ebf3ff;
+    border: 2px solid #112d4e;
+    padding: 8px;
 }
+
+.info li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+}
+
 #education {
-    background-color: rgb(233, 233, 233);
     margin: 0;
 }
 #education ul {
     list-style: none;
+}
+
+.jumptarget::before {
+    content:"";
+    display:block;
+    height:110px; /* fixed header height*/
+    margin:-110px 0 0; /* negative fixed header height */
+  }
+
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h4 span {
+    font-style: normal;
+    font-weight: 0.8;
+    font-size: 0.9em;
+    opacity: 50%;
+}
+
+.info a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #345e91;
 }
