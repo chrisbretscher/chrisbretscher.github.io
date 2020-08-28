@@ -24,10 +24,10 @@ header h1 {
     text-align: center;
     display: inline-box;
     margin: 20px auto 0px auto;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     text-transform: uppercase;
     border: 2px solid #f9f7f7;
-    width: 13em;
+    width: 14em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -74,6 +74,10 @@ header img {
     width: 80%;
     line-height: 1.25;
     background-color: #ebf3ff;
+    background-image: url(resources/texture.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 2px solid #112d4e;
     padding: 8px;
 }
